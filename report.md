@@ -7,8 +7,8 @@
 
 | Запит (Name) | Метод | Статус | Тип | Розмір |
 |---|---|---|---|---|
-| index.html | GET | 200 | document / text/html | вказати значення з DevTools |
-| logo.png | GET | 200 | png / image/png | вказати значення з DevTools |
+| index.html | GET | 200 | document / text/html | 2.9 kB |
+| logo.png | GET | 200 | png / image/png | 13.8 kB |
 | інші, якщо є | — | — | — | — |
 
 Для `index.html` у вкладці Headers:
@@ -17,7 +17,6 @@
 - Status Code: `200 OK`
 - Content-Type: `text/html`
 
-> Примітка: порт Live Server може відрізнятися від 5500. Якщо у браузері буде інший порт, впиши фактичний.
 
 ## Відповіді на запитання
 
@@ -52,3 +51,7 @@
 `document.body.style.background = "lightyellow"`
 
 змінює фон сторінки на світло-жовтий. Після F5 ця зміна зникає.
+
+**Рисунок 1 – Помилка 404 при неправильному шляху до зображення**
+
+![alt text]({C3134DBA-7854-45C2-A7DB-9D3F155F9F83}.png)
